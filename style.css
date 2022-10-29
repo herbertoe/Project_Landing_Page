@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    color: blue;
+}
+
+.main-image {
+    width:10px;
+    height:10px;
+    flex-basis: auto;
+    
+}
