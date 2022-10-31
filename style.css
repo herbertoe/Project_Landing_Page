@@ -4,12 +4,29 @@ body {
 }
 
 .header {
-    color: blue;
+    display: flex;
+    justify-content: space-around;
+
 }
 
-.main-image {
-    width:10px;
-    height:10px;
-    flex-basis: auto;
-    
+img {
+    height: 250px;
+    width: 250px;
+}
+
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 60px;
+}
+.hero-left {
+    display: flex;
+    flex-direction: column;
+}
+.hero-main {
+    display: flex;
+    justify-content: space-around;
 }
