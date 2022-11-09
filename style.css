@@ -98,3 +98,15 @@ ul {
 
 }
 
+
+
+.square-one {
+    border:40px solid#3882F6;
+    width: 50px;
+    /* height: 50px; */
+    background: peachpuff;
+}
+
+/* background: peachpuff;
+  border: 40px solid brown;
+  height: 100px; */
