@@ -92,21 +92,29 @@ ul {
 
 .section2 {
     display: flex;
+    flex-direction: column;
     font-weight: bold;
     font-size: 24px;
     justify-content: center;
+    align-items: center;
 
 }
 
 
+
+.squares {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    text-align: center;
+} 
 
 .square-one {
-    border:40px solid#3882F6;
-    width: 50px;
-    /* height: 50px; */
-    background: peachpuff;
+    border:4px solid#3882F6;
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+    
 }
 
-/* background: peachpuff;
-  border: 40px solid brown;
-  height: 100px; */
+
