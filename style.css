@@ -139,10 +139,54 @@ ul {
 }
 
 .quote {
-    width: 500px;
+    width: 850px;
     font-size: 36px;
     font-style: italic;
+    font-weight: lighter;
+    text-align: left;
     
 }
+
+figcaption {
+    text-align: end;
+    padding-right: 60px;
+    font-weight: bold;
+}
+
+
+.footer {
+    display: flex;
+    padding: 50px 0px 50px 0px;
+    justify-content: center;
+}
+
+.footer-container {
+    background-color: #3882F6;
+    width: 950px;
+    border-radius: 12px;
+    display: flex;
+    padding: 50px 50px 50px 50px;
+}
+
+.instruction {
+    color: #E5E7EB;
+}
+
+.call {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
