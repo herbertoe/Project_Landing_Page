@@ -135,7 +135,11 @@ ul {
     display: flex;
     justify-content: center;
 
-   
+}
+
+.footer {
+    color: white;
+    background-color: #1f2937;
 }
 
 .quote {
@@ -154,22 +158,24 @@ figcaption {
 }
 
 
-.footer {
+.call-section {
     display: flex;
     padding: 50px 0px 50px 0px;
     justify-content: center;
 }
 
-.footer-container {
+.call-container {
     background-color: #3882F6;
     width: 950px;
     border-radius: 12px;
     display: flex;
     padding: 50px 50px 50px 50px;
+    justify-content: space-around;
 }
 
 .instruction {
     color: #E5E7EB;
+    font-size: 22px;
 }
 
 .call {
@@ -178,7 +184,21 @@ figcaption {
     font-weight: bold;
 }
 
+.signin2 {
+    border: 2px solid white;
+    width: 250px;
+    font-size: 24px;
+    padding: 10px 15px 10px 15px;
+}
 
+.sign-up2 {
+    align-self: center;
+}
+
+.footer {
+    padding: 25px 0px 25px 0px;
+    text-align: center;
+}
 
 
 
